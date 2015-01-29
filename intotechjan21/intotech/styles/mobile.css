@@ -38,7 +38,7 @@ html {
     white-space: nowrap;
 }
 #btext h1{
-	font-size:35px;
+	font-size:33px;
 }
 
 article {
@@ -48,7 +48,7 @@ article {
 	left: 15%;
 	text-align: center;
 	z-index: 900;
-	font-size:17px;
+	font-size:20px;
 	} 
 article#oldcar5 {   /*right*/
 	margin: 1175px 0 0 320px;
