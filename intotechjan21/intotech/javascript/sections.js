@@ -6,10 +6,26 @@
               if($(window).scrollTop()>1300){
                  if($(window).scrollTop()>6300){
                     $("#oldcar").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="200";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
+
                  }
                  else
                  {
                     $("#oldcar").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="200";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
+
                  }
               }
         });
@@ -22,10 +38,27 @@
               if($(window).scrollTop()>6300){
                  if($(window).scrollTop()>11300){
                     $("#newcar").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="1";
+                    document.getElementById("newcar").style.zIndex="200";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
+
                  }
                  else
                  {
                     $("#newcar").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="1";
+                    document.getElementById("newcar").style.zIndex="200";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
+
+
                  }
               }
         });
@@ -38,10 +71,24 @@
               if($(window).scrollTop()>11300){
                  if($(window).scrollTop()>16300){
                     $("#oldtrain").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="200";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
                  else
                  {
                     $("#oldtrain").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="200";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
               }
         });
@@ -54,10 +101,24 @@
               if($(window).scrollTop()>16300){
                  if($(window).scrollTop()>21300){
                     $("#newtrain").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="200";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
                  else
                  {
                     $("#newtrain").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="200";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
               }
         });
@@ -70,10 +131,24 @@
               if($(window).scrollTop()>21300){
                  if($(window).scrollTop()>26300){
                     $("#oldplane").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="200";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
                  else
                  {
                     $("#oldplane").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="200";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
               }
         });
@@ -85,10 +160,24 @@
               if($(window).scrollTop()>23300){
                  if($(window).scrollTop()>26300){
                     $("#plane3").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="200";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
                  else
                  {
                     $("#plane3").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="200";
+                    document.getElementById("newplane").style.zIndex="0";
                  }
               }
         });
@@ -101,10 +190,24 @@
               if($(window).scrollTop()>26300){
                  if($(window).scrollTop()>31000){
                     $("#newplane").fadeOut();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="200";
                  }
                  else
                  {
                     $("#newplane").fadeIn();
+                    document.getElementById("oldcar").style.zIndex="0";
+                    document.getElementById("newcar").style.zIndex="0";
+                    document.getElementById("oldtrain").style.zIndex="0";
+                    document.getElementById("newtrain").style.zIndex="0";
+                    document.getElementById("oldplane").style.zIndex="0";          
+                    document.getElementById("plane3").style.zIndex="0";
+                    document.getElementById("newplane").style.zIndex="200";
                  }
               }
         });
