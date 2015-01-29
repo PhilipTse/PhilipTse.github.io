@@ -230,10 +230,10 @@ article#oldcar8 {   /*left*/
 	}
 #oldcar {
 	position: fixed;
-	top: 150px;
+	top: 140px;
 	z-index: 101;
-	width: 221px;
-	height: 470px;
+	width: 216px;
+	height: 465px;
 	left: 50%;
 	margin-left: -110px;
 	}
