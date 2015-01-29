@@ -1,5 +1,5 @@
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { /*Tablet Portrait */
 html {
 	overflow-x: hidden;
 }
@@ -77,8 +77,7 @@ article#oldcar8 {   /*left*/
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : portrait) {
- /*iphone  5 and 5S portrait */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : portrait) { /* iPhone 5 & 5S Portrait */
 
 html {
 	overflow-x: hidden;
@@ -152,6 +151,91 @@ article#oldcar8 {   /*left*/
 	opacity: 1;
 	border: 1px #111 solid;
 	outline: 10px #fff solid;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { /* iPhone 5 & 5S Landscape */
+html {
+	overflow-x: hidden;
+}
+#navwrapper {
+	display:none;
+}
+
+#navside {
+	display:none;
+}
+
+.menu {
+	display:none;
+}
+
+.menu li {
+	display:none;
+}
+
+.menu li a, .menu li a:visited {
+	display:none;
+
+}
+#btext {
+	width: 35%;
+    height: auto;
+    left: 50% !important;
+    white-space: nowrap;
+}
+#btext h1{
+	font-size:30px;
+}
+
+article {
+	position: absolute;
+	background: #fff;
+	padding: 10px;
+	left: 15%;
+	text-align: center;
+	z-index: 900;
+	font-size:20px;
+	} 
+article#oldcar5 {   /*right*/
+	margin: 1175px 0 0 220px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar6 {   /*left*/  
+	margin: 1975px 0 0 -40px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar7 {   /*right2*/
+	margin: 2775px 0 0 220px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar8 {   /*left*/  
+	margin: 3575px 0 0 -40px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+#oldcar {
+	position: fixed;
+	top: 150px;
+	z-index: 101;
+	width: 221px;
+	height: 470px;
+	left: 50%;
+	margin-left: -110px;
 	}
 
 
