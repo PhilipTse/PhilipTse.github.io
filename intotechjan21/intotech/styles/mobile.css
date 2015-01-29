@@ -38,7 +38,7 @@ html {
     white-space: nowrap;
 }
 #btext h1{
-	font-size:33px;
+	font-size:30px;
 }
 
 article {
@@ -51,7 +51,7 @@ article {
 	font-size:20px;
 	} 
 article#oldcar5 {   /*right*/
-	margin: 1175px 0 0 320px;
+	margin: 1175px 0 0 420px;
 	width: 210px;
 	opacity: 1;
 	border: 1px #111 solid;
@@ -67,7 +67,7 @@ article#oldcar6 {   /*left*/
 	}
 
 article#oldcar7 {   /*right2*/
-	margin: 2775px 0 0 320px;
+	margin: 2775px 0 0 420px;
 	width: 210px;
 	opacity: 1;
 	border: 1px #111 solid;
