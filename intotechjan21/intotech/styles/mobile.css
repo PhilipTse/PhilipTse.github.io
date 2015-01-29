@@ -230,7 +230,7 @@ article#oldcar8 {   /*left*/
 	}
 #oldcar {
 	position: fixed;
-	top: 100px;
+	top: 10px;
 	z-index: 101;
 	width: 216px;
 	height: 465px;
