@@ -248,12 +248,12 @@ article#oldcar8 {   /*left*/
 	}
 #oldtrain {
 	position: fixed;
-	top: -550px;
+	top: -250px;
 	z-index: 101;
 	width: 162px;
 	height: 671px;
 	left: 50%;
-	margin-left: -140px;
+	margin-left: -100px;
 	}
 #newtrain {
 	position: fixed;
