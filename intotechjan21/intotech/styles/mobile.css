@@ -1,8 +1,80 @@
 
-@media screen and (min-width:568px) and (max-width: 768px) { /***** PHONE LANDSCAPE + TABLET (somewhat) *******/
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+html {
+	overflow-x: hidden;
+}
+#navwrapper {
+	display:none;
 }
 
+#navside {
+	display:none;
+}
+
+.menu {
+	display:none;
+}
+
+.menu li {
+	display:none;
+}
+
+.menu li a, .menu li a:visited {
+	display:none;
+
+}
+#btext {
+	width: 35%;
+    height: auto;
+    left: 50% !important;
+    white-space: nowrap;
+}
+#btext h1{
+	font-size:15pt;
+}
+
+article {
+	position: absolute;
+	background: #fff;
+	padding: 10px;
+	left: 15%;
+	text-align: center;
+	z-index: 900;
+	font-size:25px;
+	} 
+article#oldcar5 {   /*right*/
+	margin: 1175px 0 0 120px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar6 {   /*left*/  
+	margin: 1975px 0 0 -230px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar7 {   /*right2*/
+	margin: 2775px 0 0 120px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+article#oldcar8 {   /*left*/  
+	margin: 3575px 0 0 -230px;
+	width: 210px;
+	opacity: 1;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : portrait) {
