@@ -237,6 +237,31 @@ article#oldcar8 {   /*left*/
 	left: 50%;
 	margin-left: -110px;
 	}
-
-
+#newcar {
+	position: fixed;
+	top: -10px;
+	z-index: 101;
+	width: 216px;
+	height: 465px;
+	left: 50%;
+	margin-left: -110px;
+	}
+#oldtrain {
+	position: fixed;
+	top: -150px;
+	z-index: 101;
+	width: 162px;
+	height: 671px;
+	left: 50%;
+	margin-left: -110px;
+	}
+#newtrain {
+	position: fixed;
+	top: -250px;
+	z-index: 101;
+	width: 205px;
+	height: 621px;
+	left: 50%;
+	margin-left: -120px;
+	}
 }
