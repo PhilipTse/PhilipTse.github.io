@@ -252,7 +252,7 @@ article#oldcar8 {   /*left*/
 	z-index: 101;
 	width: 162px;
 	height: 671px;
-	left: 50%;
+	left: 52%;
 
 	}
 #newtrain {
@@ -264,4 +264,32 @@ article#oldcar8 {   /*left*/
 	left: 50%;
 	margin-left: -120px;
 	}
+#oldplane {
+	position: fixed;
+	top: -150px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+#plane3 {
+	position: fixed;
+	top: -150px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+#newplane {
+	position: fixed;
+	top: -150px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+
 }
