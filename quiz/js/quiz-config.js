@@ -67,7 +67,7 @@ var quizJSON = {
                 {"option": "Transmission",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Uhh no..</span> Sorry, that's not right.</p>" // no comma here
         },
         	{ // Question 6
             "q": "Maglev trains can reach _______ with people onboard",
@@ -77,7 +77,7 @@ var quizJSON = {
                 {"option": "300 MPH",      "correct": true},
                 {"option": "1,000 MPH",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Thats Right!!</span> Maglev trains can reach up to 300 MPH with people onboard!</p>",
+            "correct": "<p><span>That's Right!!</span> Maglev trains can reach up to 300 MPH with people onboard!</p>",
             "incorrect": "<p><span>Nope.</span> Try again.</p>" // no comma here
         },
         	{ // Question 7
@@ -89,7 +89,7 @@ var quizJSON = {
                 {"option": "Air Cannons",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Yes!!</span> Magnetic Force levitate and propel the Maglev train!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Uhh no..</span> Sorry, that's not right.</p>" // no comma here
         },
             	{ // Question 8
             "q": "The tail of the airplane has two types of small wings, called the _______.",
@@ -111,7 +111,7 @@ var quizJSON = {
                 {"option": "$450 Million",   "correct": true} // no comma here
             ],
             "correct": "<p><span>Yes!</span> It cost $450 Million to send a rocket to space!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Uhh no..</span> Sorry, that's not right.</p>" // no comma here
         },
             	{ // Question 10
             "q": "NASA's Deep Space-1 project is based on _______ engines.",
@@ -122,7 +122,7 @@ var quizJSON = {
                 {"option": "Diesel",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!!</span> NASA's Deep Space-1 project is based off xenon ions.</p>",
-            "incorrect": "<p><span>Nope.</span> Thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Nope.</span> That's not right.</p>" // no comma here
         },
             	{ // Question 11
             "q": "Rockets burn _______ to produce hot gases that drive the rocket upwards.",
@@ -144,7 +144,7 @@ var quizJSON = {
                 {"option": "Thrust",   "correct": true} // no comma here
             ],
             "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Uhh no..</span> Sorry, that's not right.</p>" // no comma here
         },
             	{ // Question 13
             "q": "All railroad cars have an _______ that contains wheels and a suspension system to buffer the ride.",
@@ -155,7 +155,7 @@ var quizJSON = {
                 {"option": "Axis",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Excellent!!</span> The undercarriage contains wheels and a suspension system to buffer the ride.</p>",
-            "incorrect": "<p><span>Nope.</span> Thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Nope.</span> That's not right.</p>" // no comma here
         },
             	{ // Question 14
             "q": "The _______ enables the locomotive to back up.",
@@ -166,7 +166,7 @@ var quizJSON = {
                 {"option": "Zeuton Gear",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Great Job!</span> The reversing gear enables the locomotive to back up.</p>",
-            "incorrect": "<p><span>Hmmm.</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Hmmm.</span> Sorry, that's not right.</p>" // no comma here
         },
          { // Question 15
             "q": "Autonomous cars are expected to be on the road within _______.",
