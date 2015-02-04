@@ -8,9 +8,11 @@ html {
 body {
     width: 800px;
     margin: 0 auto;
-    border: 2px solid #ccc;
     border-top: none;
     background: #fff;
+    	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	box-shadow: 15px 15px 26px #111;
     padding: 20px;
     font-family: Trebuchet, Arial,Helvetica,sans-serif;
     font-size: 16px;
@@ -66,7 +68,7 @@ h6 {
     text-decoration: none;
 }
 .button:hover {
-    background-color:#cf3928;
+    background-color:#CC3827;
 }
 
 .startQuiz {
