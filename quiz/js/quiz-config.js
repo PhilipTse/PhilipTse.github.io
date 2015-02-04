@@ -77,8 +77,8 @@ var quizJSON = {
                 {"option": "300 MPH",      "correct": true},
                 {"option": "1,000 MPH",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Thats Right!!</span> Maglev trains can reach up to 300 MPH with people onboard!</p>",
+            "incorrect": "<p><span>Nope.</span> Try again.</p>" // no comma here
         },
         	{ // Question 7
             "q": "Maglev trains are levitated and propelled by _______.",
@@ -88,7 +88,7 @@ var quizJSON = {
                 {"option": "Quantum Physics",      "correct": false},
                 {"option": "Air Cannons",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
+            "correct": "<p><span>Yes!!</span> Magnetic Force levitate and propel the Maglev train!</p>",
             "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
         },
             	{ // Question 8
@@ -99,8 +99,8 @@ var quizJSON = {
                 {"option": "Horitontal and Vertical Flexors",      "correct": false},
                 {"option": "Cockpit",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Excellent!!</span> Horitontal and Vertical Stabilizers are the wings on the tail of a airplane.</p>",
+            "incorrect": "<p><span>Not Quite.</span> Try again.</p>" // no comma here
         },
             	{ // Question 9
             "q": "It costs approximately _______ to send a rocket to space!",
@@ -110,7 +110,7 @@ var quizJSON = {
                 {"option": "$800 Million",      "correct": false},
                 {"option": "$450 Million",   "correct": true} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
+            "correct": "<p><span>Yes!</span> It cost $450 Million to send a rocket to space!</p>",
             "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
         },
             	{ // Question 10
@@ -121,8 +121,8 @@ var quizJSON = {
                 {"option": "Denim ion",      "correct": false},
                 {"option": "Diesel",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Correct!!</span> NASA's Deep Space-1 project is based off xenon ions.</p>",
+            "incorrect": "<p><span>Nope.</span> Thats not right.</p>" // no comma here
         },
             	{ // Question 11
             "q": "Rockets burn _______ to produce hot gases that drive the rocket upwards.",
@@ -132,8 +132,8 @@ var quizJSON = {
                 {"option": "Diesel fuel",      "correct": false},
                 {"option": "Xenon ions",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Nice.</span> Rockets burn Propellant to drive the rocket upwards.</p>",
+            "incorrect": "<p><span>Wrong!</span> Try again.</p>" // no comma here
         },
             	{ // Question 12
             "q": "_______ is the aerodynamic force that pushes or pulls the airplane forward through space.",
@@ -154,8 +154,8 @@ var quizJSON = {
                 {"option": "Stabilizer",      "correct": false},
                 {"option": "Axis",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Excellent!!</span> The undercarriage contains wheels and a suspension system to buffer the ride.</p>",
+            "incorrect": "<p><span>Nope.</span> Thats not right.</p>" // no comma here
         },
             	{ // Question 14
             "q": "The _______ enables the locomotive to back up.",
@@ -165,8 +165,8 @@ var quizJSON = {
                 {"option": "Throttle",      "correct": false},
                 {"option": "Zeuton Gear",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Great Job!</span> The reversing gear enables the locomotive to back up.</p>",
+            "incorrect": "<p><span>hmm.</span> Sorry, thats not right.</p>" // no comma here
         },
          { // Question 15
             "q": "Autonomous cars are expected to be on the road within _______.",
@@ -176,8 +176,8 @@ var quizJSON = {
                 {"option": "30 Years",      "correct": false},
                 {"option": "50 Years",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
-            "incorrect": "<p><span>Uhh no..</span> Sorry, thats not right.</p>" // no comma here
+            "correct": "<p><span>Yippee!!</span> Autonomous cars are expected to be on the road within 10 years!</p>",
+            "incorrect": "<p><span>Close!</span> Try again!</p>" // no comma here
         },
         { // Question 16
 			"q": "Germany and Japan are both developing _______ train technology.",
