@@ -166,7 +166,7 @@ var quizJSON = {
                 {"option": "Zeuton Gear",   "correct": false} // no comma here
             ],
             "correct": "<p><span>Great Job!</span> The reversing gear enables the locomotive to back up.</p>",
-            "incorrect": "<p><span>hmm.</span> Sorry, thats not right.</p>" // no comma here
+            "incorrect": "<p><span>Hmmm.</span> Sorry, thats not right.</p>" // no comma here
         },
          { // Question 15
             "q": "Autonomous cars are expected to be on the road within _______.",
