@@ -24,6 +24,7 @@ h1 {
     font-size: 26px;
     margin: 0 0 20px;
     color: #0C4569;
+    text-align: center;
 }
 h2 {
     font-size: 22px;
@@ -46,26 +47,26 @@ h6 {
     margin: 5px 0;
 }
 
-strong { font-weight: bold; }
-em { font-style: italic; }
-ul { list-style-type: circle; }
-ol { list-style-type: decimal; }
-ol li { list-style-type: decimal; margin-left: 20px; }
+	strong { font-weight: bold; }
+	em { font-style: italic; }
+	ul { list-style-type: circle; }
+	ol { list-style-type: decimal; }
+	ol li { list-style-type: decimal; margin-left: 20px; }
 
 .button {
     float: left;
     width: auto;
     padding: 5px 15px;
     color:#ffffff;
-    background-color:darkcyan;
-    border: 1px solid #fff;
+    background-color: #cf3928;
+    border: 1px solid #cf3928;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-	text-decoration: none;
+    text-decoration: none;
 }
 .button:hover {
-    background-color:darkslategray;
+    background-color:#cf3928;
 }
 
 .startQuiz {
