@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Into Tech Quiz!!",
         "main":    "<p>Think you're Into Tech? Find out with this super crazy knowledge quiz!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<a href="www.into-tech.com/"><button>Go back</button></a><p>Great Job! Click go back to go back to the main page.</p>",
         "level1":  "Into Tech Master!",
         "level2":  "Into Tech Pro!",
         "level3":  "Into Tech Amateur",
