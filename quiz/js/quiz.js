@@ -148,6 +148,10 @@
 
         // Count the number of questions
         var questionCount = questions.length;
+        if(questionCount >= "1")
+	info[2].desc= "nothing"; 
+else
+	info[2].desc= "yes"; 
 
         // Select X number of questions to load if options is set
         if (plugin.config.numberOfQuestions && questionCount >= plugin.config.numberOfQuestions) {
