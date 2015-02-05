@@ -152,7 +152,7 @@
 	info[2].desc= "nothing"; 
 else
 	info[2].desc= "yes"; 
-
+}
         // Select X number of questions to load if options is set
         if (plugin.config.numberOfQuestions && questionCount >= plugin.config.numberOfQuestions) {
             questions = questions.slice(0, plugin.config.numberOfQuestions);
