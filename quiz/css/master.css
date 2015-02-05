@@ -2,7 +2,7 @@
 /* Styles to prettify the quiz page */
 
 html {
-    background: url('https://raw.githubusercontent.com/PhilipTse/PhilipTse.github.io/master/it/dotskin.png'), #29477b;
+    background: #29477b url("https://raw.githubusercontent.com/PhilipTse/PhilipTse.github.io/master/it/dotskin.png");
 }
 
 body {
