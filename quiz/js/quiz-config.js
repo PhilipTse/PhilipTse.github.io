@@ -143,7 +143,7 @@ var quizJSON = {
                 {"option": "Xeroity",      "correct": false},
                 {"option": "Thrust",   "correct": true} // no comma here
             ],
-            "correct": "<p><span>Excellent!!</span> The trottle controls the speed of a locomotive!</p>",
+            "correct": "<p><span>Excellent!!</span> Thrust is the force that pushes or pulls the airplane forward in space!</p>",
             "incorrect": "<p><span>Uhh no..</span> Sorry, that's not right.</p>" // no comma here
         },
             	{ // Question 13
