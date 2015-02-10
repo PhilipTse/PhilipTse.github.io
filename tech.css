@@ -1068,7 +1068,7 @@ h1.end {
 	font-size: 40pt;
 	color: #fff;
 	text-shadow: 1px 1px #545454;
-	padding-top: 500px;
+
 	}
 	
 h1.qtext {  
@@ -1082,6 +1082,7 @@ h1.qtext {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    	padding-bottom: 500px;
 	}
 	
 	a.thing {
