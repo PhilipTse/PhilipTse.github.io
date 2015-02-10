@@ -1098,6 +1098,8 @@ h1.qtext {
 	padding: 5px;
 	max-width: 450px;
 	min-width: 450px;
+	position: relative;
+	margin-bottom: 50px;
 	}
 
 h1.second {  
