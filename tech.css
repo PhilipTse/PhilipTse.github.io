@@ -4,16 +4,6 @@
 
 /* Site */
 
-button {
-    right: 50%;
-    padding: 30px 25px;
-    color:#ffffff;
-    background-color: #cf3928;
-    border: 1px solid #cf3928;
-    margin-right: auto; 
-    margin-left: auto;
-
-}
 
 #cat {
 	width: 365px; 
@@ -1078,6 +1068,24 @@ h1.end {
 	font-size: 40pt;
 	color: #fff;
 	text-shadow: 1px 1px #545454;
+	}
+	
+h1.qtext {  
+	text-align: center;
+	font-family: kenyancoffee, sans-serif;
+	font-size: 10pt;
+	color: #fff;
+	background-color: red;
+	text-shadow: 1px 1px #545454;
+	}
+	
+	a.thing {
+		
+	}
+	
+	#quix {
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 h1.second {  
