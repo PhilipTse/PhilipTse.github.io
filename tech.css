@@ -3,6 +3,21 @@
 
 
 /* Site */
+.button {
+    float: left;
+    width: auto;
+    padding: 5px 15px;
+    color:#ffffff;
+    background-color: #cf3928;
+    border: 1px solid #cf3928;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color:#AB2F21;
+}
 
 #cat {
 	width: 365px; 
