@@ -4,7 +4,7 @@
 
 /* Site */
 .button {
-    width: auto;
+    width: 200px;
     padding: 20px 15px;
     color:#ffffff;
     background-color: #cf3928;
@@ -13,6 +13,8 @@
     -moz-border-radius: 5px;
     border-radius: 20px;
     text-decoration: none;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 .button:hover {
     background-color:#AB2F21;
