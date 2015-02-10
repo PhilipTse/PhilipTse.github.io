@@ -1080,12 +1080,18 @@ h1.qtext {
 	}
 	
 	a.thing {
-		
+		color: #fff;
 	}
+	
+		a.thing hover {
+			color: #dadada;
+		}
 	
 	#quix {
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 450px;
+	min-width: 450px;
 	}
 
 h1.second {  
