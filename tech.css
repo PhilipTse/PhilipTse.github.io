@@ -3,23 +3,15 @@
 
 
 /* Site */
-#quiz {
-left: 500px;
-}
+
 .button {
-    width: 800px;
+
     padding: 30px 25px;
     color:#ffffff;
     background-color: #cf3928;
     border: 1px solid #cf3928;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 50px;
-    text-decoration: none;
 
-}
-.button:hover {
-    background-color:#AB2F21;
+
 }
 
 #cat {
