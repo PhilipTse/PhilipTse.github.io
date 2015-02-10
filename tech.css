@@ -3,6 +3,10 @@
 
 
 /* Site */
+#quiz {
+	margin-left: 50%;
+	margin-right: 50%;
+}
 .button {
     width: 800px;
     padding: 30px 25px;
