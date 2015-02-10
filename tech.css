@@ -4,7 +4,7 @@
 
 /* Site */
 #quiz {
-left: 50%;
+left: 500px;
 }
 .button {
     width: 800px;
@@ -16,7 +16,7 @@ left: 50%;
     -moz-border-radius: 5px;
     border-radius: 50px;
     text-decoration: none;
-    left:; 50%
+
 }
 .button:hover {
     background-color:#AB2F21;
