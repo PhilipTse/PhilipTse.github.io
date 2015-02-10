@@ -1073,7 +1073,7 @@ h1.end {
 h1.qtext {  
 	text-align: center;
 	font-family: kenyancoffee, sans-serif;
-	font-size: 10pt;
+	font-size: 30pt;
 	color: #fff;
 	background-color: red;
 	text-shadow: 1px 1px #545454;
@@ -1090,6 +1090,7 @@ h1.qtext {
 	#quix {
 	margin-left: auto;
 	margin-right: auto;
+	padding: 5px;
 	max-width: 450px;
 	min-width: 450px;
 	}
