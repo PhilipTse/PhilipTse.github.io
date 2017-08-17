@@ -1,0 +1,44 @@
+@media only screen and (min-width: 100px) and (max-width: 320px){ /*Tablet Portrait */
+
+body {
+    width: 250px;
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 449px){ /*Tablet Portrait */
+
+body {
+    width: 320px;
+}
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 568px){ /*Tablet Portrait */
+
+body {
+    width: 300px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 569px) and (max-width: 700px){ /*Tablet Portrait */
+
+body {
+    width: 400px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 701px) and (max-width: 799px){ /*Tablet Portrait */
+
+body {
+    width: 501px;
+}
+
+}

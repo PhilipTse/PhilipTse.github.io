@@ -1,0 +1,1121 @@
+@charset "utf-8";
+/* Into-Tech : Javier Salazar & Philip Tse */
+
+
+/* Site */
+
+
+#cat {
+	width: 365px; 
+	height:516px; 
+	position: fixed; 
+	margin-top: 0px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	z-index: 0 !important;
+}
+
+img {
+ 	pointer-events: none;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eaecea;
+	font-family: helvetica;
+}
+
+@font-face { 
+	font-family: kenyancoffee; 
+	src: url('itfonts/kenyancoffee.ttf');
+} 
+
+@font-face { 
+	font-family: krungthep; 
+	src: url('itfonts/krungthep.ttf');
+} 
+
+@font-face { 
+	font-family: Helvetica; 
+	src: url('itfonts/Helvetica.dfont');
+} 
+
+h1 {
+	font-family: kenyancoffee
+}
+
+h3 {
+	font-family: krungthep, sans-serif;
+}
+
+
+/* Navigation Bar */
+
+#navwrapper {
+	z-index: 9998;
+}
+
+#navside {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 8em;
+	margin-top: -2.5em;
+	z-index:9999;
+}
+
+.menu {
+	margin-left: auto;
+	padding: 0;
+	padding-top: 10px;
+	width: 80px;
+	list-style: none;
+	background: rgba(255,255,255,0.7);
+	z-index: 9999;
+	border-radius: 25px 0 0 25px;
+	box-shadow: 5px 5px 5px #111;
+}
+
+.menu li {
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	list-style: none;
+	background-repeat: no-repeat;
+	z-index: 9999;
+}
+
+.menu li a, .menu li a:visited {
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 39px;
+	background-repeat: no-repeat;
+	z-index: 9999;
+}
+
+/* Navigation Padding */
+
+.menu li.home {
+	background-image: url(it/menu/house.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.home:hover {
+	background-image: url(it/menu/shouse.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+.menu li.second {
+	background-image: url(it/menu/car.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.second:hover {
+	background-image: url(it/menu/scar.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+.menu li.third {
+	background-image: url(it/menu/train.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.third:hover {
+	background-image: url(it/menu/strain.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+.menu li.fourth {
+	background-image: url(it/menu/plane.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.fourth:hover {
+	background-image: url(it/menu/splane.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+.menu li.fifth {
+	background-image: url(it/menu/rocket.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.fifth:hover {
+	background-image: url(it/menu/srocket.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+.menu li.sixth {
+	background-image: url(it/menu/www.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+	-webkit-transition-duration: .15s;
+}
+
+.menu li.sixth:hover {
+	background-image: url(it/menu/swww.png);
+	position: relative;
+	left: 25%;
+	margin: auto;
+}
+
+/* Important Site Styles */
+
+::selection {
+    color: white; 
+    background: red;
+}
+
+body a {
+	text-rendering: optimizeLegibility;
+	}
+
+#wrapper {
+	overflow: hidden;
+	min-width: 800px;
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #ec3d2f;
+	padding: 0;
+	margin: 0;
+}
+
+a:hover { 
+	color: #fff;
+	}
+	
+ul a:link, ul a:visited {
+	color: #fff;
+	}
+	
+ul a:hover {
+	color: #ec3d2f;
+	}
+	
+em {
+	color: #ec3d2f;
+	font-weight: 600;
+	font-style: normal;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+hr {
+	border: 0px; 
+	height: 1px; 
+	background: #000;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 0; 
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+	hgroup {z-index: 10;}
+
+		h1 {     /*BANNER TEXT ONLY*/
+			text-align: center;
+			font-family: kenyancoffee, sans-serif;
+			font-size: 25pt;
+			letter-spacing: .1px;
+			color: #fff;
+			text-shadow: 2px 2px #545454;
+		}
+			
+		h2 {
+			text-align: center;
+			font-family: sans-serif;
+			color: #111;
+			text-transform: none;
+			font-weight: 100;
+			font-size: 26px; 
+			font-style: italic;
+			margin: 0 0 10px 0;
+		}
+	
+		h3 {
+			text-align: center;
+			font-family: krungthep, sans-serif;
+			font-size: 18px;
+			color: #FFF;
+			font-weight: 500;
+			letter-spacing: 1px;
+			background: #ec3d2f;
+			padding: 5px 10px;
+		}
+		
+		h4 {
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 20px;
+			color: #FFF;
+			font-weight: 500;
+			letter-spacing: 1px;
+			background: #ec3d2f;
+			padding: 5px 10px;
+		}
+		
+section {
+	padding: 10px 0;
+	margin: 0;
+}
+
+article {
+	position: absolute;
+	background: #fff;
+	padding: 30px;
+	left: 63%;
+	text-align: center;
+	z-index: 900;
+} 
+
+p { 
+	text-align: left;
+	font-size: 17px; 
+	line-height: 20px;
+	font-family: Helvetica, sans-serif, Times; 
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+li {
+	text-align: left;
+	font-size: 17px; 
+	line-height: 20px;
+	font-family: sans-serif, Times; 
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* /////////////////////
+////////////////////////
+************************
+////  1. Welcome  //////
+************************
+////////////////////////
+///////////////////// */
+
+
+section#home {
+	background:url("it/home.svg") #79c5ce;
+	height: 1300px;
+	width: 100%;
+	padding: 200px 0 0 0;
+	position: relative; 
+	z-index:201;
+}
+
+#welcome {
+	position: absolute;
+	top: 100px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;
+}
+
+#banner {
+	position: absolute;
+	top: 375px;
+	z-index:202;
+	left: 50%;
+	margin-left: -404px;
+}
+
+#btext {
+	position: absolute;
+	top: 382px;
+	z-index:203;
+	left: 50%;
+	margin-left: -368px;
+}
+
+
+/* /////////////////////
+////////////////////////
+************************
+//////  2. Car 1  //////
+************************
+////////////////////////
+///////////////////// */
+
+
+section#car1 {
+	position: relative;
+	background: #A87B4F url("it/skin.png"); /*Ground Color*/
+	height: 5000px;
+	width: 100%;
+}
+
+article#oldcar5 {   /*right*/
+	margin: 1175px 0 0 120px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	box-shadow: 15px 15px 26px #111;
+	}
+
+article#oldcar6 {   /*left*/  
+	margin: 1975px 0 0 -826px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	box-shadow: -15px 23px 26px #111;
+	}
+
+article#oldcar7 {   /*right2*/
+	margin: 2775px 0 0 120px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	box-shadow: 15px 15px 26px #111;
+	}
+
+article#oldcar8 {   /*left*/  
+	margin: 3575px 0 0 -826px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	box-shadow: -15px 23px 26px #111;
+	}
+
+
+	
+	
+#city {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -373px;
+	z-index:201;
+	height: 661px;
+	top: 100px;
+	}
+
+#oldcar {
+	position: fixed;
+	top: 200px;
+	z-index: 101;
+	width: 221px;
+	height: 470px;
+	left: 50%;
+	margin-left: -110px;
+	}
+
+#connector {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:280px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+		
+#tunneltop {
+	position: absolute;
+	top:240px;
+	z-index: 202;
+	left: 50%;
+	margin-left: -408px;
+	}
+		
+#tunnel {
+	position: absolute;
+	top: 520px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;
+	}
+		
+#tunnel2 {
+	position: absolute;
+	top: 565px;
+	z-index: 0;
+	background:url("it/skin.png") #ADADAD;
+	width: 100%;
+	height: 100px;
+	}
+	
+#road {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -250px;
+	background: url("it/road1.png") repeat;
+	height:5000px;
+	width: 500px;
+	z-index:100;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+//////  3. Car 2  //////
+************************
+////////////////////////
+///////////////////// */
+
+	
+section#car2 {
+	position: relative;
+	background: #A87B4F url("it/skin.png"); /*Ground Color*/
+	height: 5000px;
+	width: 100%;
+}
+
+article#newcar1 {
+	margin: 1175px 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+article#newcar2 {
+	margin: 2100px 0 0 290px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+#clouds {
+	/*position: absolute;*/
+	position: relative;
+    -webkit-animation: myfirst 20s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 20s infinite;
+    animation-direction: normal;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -400px;
+	z-index:201;
+	}
+
+@-webkit-keyframes myfirst {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 400px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 400px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+
+#newcar {
+	position: fixed;
+	top: 200px;
+	z-index: 101;
+	width: 221px;
+	height: 470px;
+	left: 50%;
+	margin-left: -110px;
+	}
+	
+#road2 {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -250px;
+	background: url("it/road2.png") repeat;
+	height:5000px;
+	width: 500px;
+	z-index:100;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+/////  4. Train 1  /////
+************************
+////////////////////////
+///////////////////// */
+
+
+section#train1 {
+	position: relative;
+	background: #85B567 url("it/skin.png"); /*Ground Color*/
+	height: 5000px;
+	width: 100%;
+	}
+
+article#oldcar1 {
+	margin: 1175px 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+article#oldcar2 {
+	margin: 2100px 0 0 290px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+#city {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -373px;
+	z-index:201;
+	}
+
+#clouds3 {
+	position: relative;
+    -webkit-animation: mySecond 7s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: mySecond 7s infinite;
+    animation-direction: normal;
+	top:130px;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -173px;
+	max-height: 650px;
+	z-index:207;
+	}
+
+@-webkit-keyframes mySecond {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 50px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+
+@keyframes mySecond {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 50px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+
+#connector2 {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:0px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+
+#oldtrain {
+	position: fixed;
+	top: 90px;
+	z-index: 101;
+	width: 162px;
+	height: 671px;
+	left: 50%;
+	margin-left: -80px;
+	}
+
+#connector {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:280px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+		
+#tunneltop {
+	position: absolute;
+	top:240px;
+	z-index: 202;
+	left: 50%;
+	margin-left: -408px;
+	}
+		
+#tunnel {
+	position: absolute;
+	top: 520px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;}
+		
+#tunnel2 {
+	position: absolute;
+	top: 565px;
+	z-index: 0;
+	background:url("it/skin.png") #ADADAD;
+	width: 100%;
+	height: 100px;
+	}
+	
+#track {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -250px;
+	background: url("it/track.png") repeat;
+	height:5000px;
+	width: 500px;
+	z-index:100;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+/////  5. Train 2  /////
+************************
+////////////////////////
+///////////////////// */
+
+	
+section#train2 {
+	position: relative;
+	background: #85B567 url("it/skin.png"); /*Ground Color*/
+	height: 5000px;
+	width: 100%;
+	}
+
+article#oldcar1 {
+	margin: 1175px 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+article#oldcar2 {
+	margin: 2100px 0 0 290px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+#city {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -373px;
+	z-index:201;
+	}
+
+#newtrain {
+	position: fixed;
+	top: 50px;
+	z-index: 101;
+	width: 205px;
+	height: 621px;
+	left: 50%;
+	margin-left: -120px;
+	}
+
+#connector {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:280px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+		
+#tunneltop {
+	position: absolute;
+	top:240px;
+	z-index: 202;
+	left: 50%;
+	margin-left: -408px;
+	}
+		
+#tunnel {
+	position: absolute;
+	top: 520px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;}
+		
+#tunnel2 {
+	position: absolute;
+	top: 565px;
+	z-index: 0;
+	background:url("it/skin.png") #ADADAD;
+	width: 100%;
+	height: 100px;
+	}
+	
+#track2 {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -250px;
+	background: url("it/track2.png") repeat;
+	height:5000px;
+	width: 500px;
+	z-index:100;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+//////  6. Plane  //////
+************************
+////////////////////////
+///////////////////// */
+
+
+section#plane {
+	position: relative;
+	background: #939597 url("it/skin.png"); /*Ground Color*/
+	height: 5000px;
+	width: 100%;
+	}
+
+
+article#oldcar1 {
+	margin: 1175px 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+article#oldcar2 {
+	margin: 2100px 0 0 290px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+#city {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -373px;
+	z-index:201;
+	}
+
+#clouds3 {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -273px;
+	max-height: 700px;
+	z-index:207;
+	}
+
+
+#oldplane {
+	position: fixed;
+	top: 200px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+
+#plane3 {
+	position: fixed;
+	top: 200px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+		
+#connector {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:280px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+
+		
+#tunneltop {
+	position: absolute;
+	top:240px;
+	z-index: 202;
+	left: 50%;
+	margin-left: -408px;
+	}
+		
+#tunnel {
+	position: absolute;
+	top: 520px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;}
+			
+#tunnel2 {
+	position: absolute;
+	top: 565px;
+	z-index: 0;
+	background:url("it/skin.png") #ADADAD;
+	width: 100%;
+	height: 100px;
+	}
+	
+#runway {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -250px;
+	background: url("it/runway.png") repeat;
+	height:5000px;
+	width: 500px;
+	z-index:100;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+//////  7. Space  //////
+************************
+////////////////////////
+///////////////////// */
+
+	
+section#space {
+	background:url("it/spacebg.png");
+	background-repeat: repeat-x;
+	height: 4700px;
+	width: 100%;
+	padding: 200px 0 0 0;
+	position: relative; 
+	}
+
+article#oldcar1 {
+	margin: 1175px 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+article#oldcar2 {
+	margin: 2100px 0 0 290px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 3px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+#clouds9 {
+	position: absolute;
+	 -webkit-animation: mySecond 7s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: mySecond 7s infinite;
+    animation-direction: normal;
+	top: 0;
+	background: url("it/skin.png") repeat-x;
+	margin: -255px 0 0 -473px;
+	z-index:201;
+}
+	@-webkit-keyframes mySecond {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 50px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+
+	@keyframes mySecond {
+    0%   {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+    50% {background:rgba(255, 0, 0, 0.0); left: 50px; top: 0px;}
+    100% {background:rgba(255, 0, 0, 0.0); left: 0px; top: 0px;}
+}
+	
+
+#newplane {
+	position: fixed;
+	top: 200px;
+	z-index: 101;
+	width: 450px;
+	height: 545px;
+	left: 50%;
+	margin-left: -223px;
+	}
+
+#connector {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top:280px;
+	z-index: 201;
+	background:url("it/skin.png") #29292A;
+	}
+		
+#tunneltop {
+	position: absolute;
+	top:240px;
+	z-index: 202;
+	left: 50%;
+	margin-left: -408px;
+	}
+		
+#tunnel {
+	position: absolute;
+	top: 520px;
+	z-index:202;
+	left: 50%;
+	margin-left: -373px;
+	}
+		
+#tunnel2 {
+	position: absolute;
+	top: 565px;
+	z-index: 0;
+	background:url("it/skin.png") #ADADAD;
+	width: 100%;
+	height: 100px;
+	}
+
+
+/* /////////////////////
+////////////////////////
+************************
+/////  8. Footer  //////
+************************
+////////////////////////
+///////////////////// */
+
+	
+section#source {
+	background: #111;
+	height: 1000px;
+	width: 100%;
+	padding: 200px 0 0 0;
+	position: relative; 
+	z-index: 102;
+}
+	
+#lastdivider {
+	position: absolute;
+	top:0;
+	background: url("it/skin.png") repeat-x;
+	margin: -275px 0 0 -373px;
+	z-index:201;
+	}
+
+#footer {
+	width: 100%;
+	padding: 200px 0 0 0;
+	position: relative; 
+}
+
+h1.end {  
+	text-align: center;
+	font-family: kenyancoffee, sans-serif;
+	font-size: 40pt;
+	color: #fff;
+	text-shadow: 1px 1px #545454;
+
+	}
+	
+h1.qtext {  
+	text-align: center;
+	font-family: kenyancoffee, sans-serif;
+	font-size: 30pt;
+	color: #fff;
+	background-color: red;
+	text-shadow: 1px 1px #545454;
+	    border: 1px solid #cf3928;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+	}
+	h1.qtext:hover {
+		background-color: #E81B0C;
+	}
+	
+	a.thing {
+		color: #fff;
+		
+	}
+	
+		a.thing:hover {
+			color: #dadada;
+		}
+	
+	#quix {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	max-width: 450px;
+	min-width: 450px;
+	}
+
+h1.second {  
+	text-align: center;
+	font-family: kenyancoffee, sans-serif;
+	font-size: 30pt;
+	color: #fff;
+	text-shadow: 1px 1px #545454;
+	}
+a.flink {
+	color: #FFF;
+}
+	a.flink:hover {
+	color: #ec3d2f;
+	-webkit-transition-duration: .15s;
+	}
