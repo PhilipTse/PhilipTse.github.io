@@ -17,7 +17,7 @@
 	
 	<!-- Favicon 
 	================================================== -->
-	<link rel="shortcut icon" href="img/fav.png"/>
+	<link rel="shortcut icon" href="images/favicon.html"/>
 	
 	<!-- Google fonts
 	================================================== -->
@@ -39,7 +39,7 @@
 
 	<link rel="stylesheet" href="css/supersized.css" type="text/css"/>
 	
-
+	<script type="text/javascript" src="js/contact_me.js"></script>
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,7 +48,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-twttr-rendered="true" data-spy="scroll" data-target="#my-nav">
 <!-- contact -->
 
 
@@ -64,7 +64,19 @@
 			</button>
 			<a class="navbar-brand" href="#"><img class="logo" src="images/04_small-logo-color1.png" alt=""></a>
 		</div>
-
+		<!-- desktop menu -->
+		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#header">Home</a></li>
+				<li class=""><a href="#about">About</a></li>
+				<li class=""><a href="#team">Team</a></li>
+				<li class=""><a href="#services">Services</a></li>
+				<li class=""><a href="#portfolio">Work</a></li>
+				<li class=""><a href="#testimonials">Testimonials</a></li>
+				<li class=""><a href="#blogpost">Blog</a></li>
+				<li class=""><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 	</div>
 </div>
 <!-- End of Navigation Bar -->
@@ -77,28 +89,29 @@
 				<div class="col-md-8 col-md-offset-2">
 					<!--logo-->
 					<div class="main-photo" id="header-photo">
-						
+						<img width="120" height="120" class="banner-logo pulsate-opacity" src="images/01_logo.png" alt="">
 					</div>
 					<!-- heading -->
 					<h1 style="opacity: 1; padding-top: 0px;" class="funny-text">PHILIP TSE</h1>
 					<!-- ticker -->
 					<ul id="aboutme">
-						<li>Responsive Web Design</li>
+						<li>Award winning web designing</li>
 						<li>UX/UI Design &amp; Development</li>
-						<li>Graphic Design</li>						
+						<li>Responsive web design</li>
+						<li>Brand Identity</li>						
 					</ul>
 					<!--social icon -->
 					<div class="social">
 						<div class="sideline"></div>
 						<a title="Twitter" target="_blank" href="#"><span class="icon-circle large"><i class="fa fa-twitter"></i></span></a>
-						<a title="facebook" target="_blank" href="https://www.facebook.com/ImTehPhilip"><span class="icon-circle large"><i class="fa fa-facebook"></i></span></a>
-						<a title="skype" href="skype:philipiskewl?add"><span class="icon-circle large"><i class="fa fa-skype"></i></span></a>
-						
+						<a title="facebook" target="_blank" href="#"><span class="icon-circle large"><i class="fa fa-facebook"></i></span></a>
+						<a title="skype" target="_blank" href="#"><span class="icon-circle large"><i class="fa fa-skype"></i></span></a>
+						<a title="dribbble" target="_blank" href="#" class="social-last"><span class="icon-circle large"><i class="fa fa-dribbble"></i></span></a>
 						<div class="sideline"></div>
 					</div>
 					<!--Action button-->
 					<p>
-						<a href="#services" class="btn btn-outline-white btn-small btnmore">Learn More</a>
+						<a href="#about" class="btn btn-outline-white btn-small btnmore">Know more</a>
 					</p>
 				</div>
 			</div>
@@ -123,33 +136,33 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">SERVICES</h2>
-                    <h3 class="section-subheading text-muted">My services include designing and developing responsive websites, graphic design and photo editing. </h3>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Graphic Design</h4>
-                    <p class="text-muted">I have over 4 years of experience and Adobe certified in Adobe Illustrator and Adobe Photoshop.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Coding</h4>
-                    <p class="text-muted">I have over three years of experience with HTML5, CSS and JavaScript.</p>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-scissors fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Photo Editing</h4>
-                    <p class="text-muted">I am experienced with enhancing and manipulating photos.</p>
+                    <h4 class="service-heading">Other stuff</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
@@ -162,7 +175,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">MY PORTFOLIO</h2>
-                    <h3 class="section-subheading text-muted">Various work I have completed in previous years.</h3>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
@@ -187,11 +200,11 @@
                                 <i class="fa fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/homeskape1.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>HomeSkape</h4>
-                        <p class="text-muted">Web Development</p>
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -201,11 +214,11 @@
                                 <i class="fa fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/hosa1.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Nevada HOSA</h4>
-                        <p class="text-muted">Website Development</p>
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -215,11 +228,11 @@
                                 <i class="fa fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/nvcee1.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>NVCEE</h4>
-                        <p class="text-muted">Website Development</p>
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -229,14 +242,27 @@
                                 <i class="fa fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/skills1.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>SWCTA SkillsUSA</h4>
-                        <p class="text-muted">Web Design & Development</p>
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
                     </div>
                 </div>
-                
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -256,15 +282,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-
                             <h2>INTO TECH</h2>
-                            <p class="item-intro text-muted"><a href="http://www.iphilip.me/into-tech" target="_new"> WWW.INTO-TECH.ORG </a></p>
+                            <p class="item-intro text-muted"><a href="http://www.Into-Tech.com" target="_new"> WWW.INTO-TECH.COM </a></p>
                             <img class="img-responsive img-centered" src="img/portfolio/intotech.png" alt="">
                             <p>Into Tech was a year long project that was aimed to teach fifth graders about fifth grade students with an entry-based look at the world of technology and engineering in the automotive, transportation, and aerospace industry.</p>
-                            
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -285,14 +315,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
                         <div class="modal-body">
-
-                            <h2>HomeSkape</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/homeskape1.png" alt="">
-                            <p><a href="#">HomeSkape</a> was a client we recieved from my Studio C internship. We used Wordpress and Woocommerce to create a E-commerce website that sells a canvas printing service.</p>
-                            
+                            <h2>Project Heading</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -313,14 +341,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Nevada HOSA</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/hosa1.png" alt="">
-                            <p>One of our first clients for Studio C, we made this website with php to create a website that can take orders. We utilized google sheets to keep track of any clothing orders for this project.</p>
-                            
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -341,14 +368,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Nevada Council on Economic Education</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/nvcee1.png" alt="">
-                            <p>This is our first client of Studio C that wanted wordpress with their site. NVCEE is a nonprofit organization that promotes economic education by developing and conducting teacher and community education programs in collaboration with existing organizations and networks.</p>
-                            
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -369,14 +395,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Southwest CTA SkillsUSA</h2>
-                            <p class="item-intro text-muted"><a href="http://www.iphilip.me/s/skillsusa" target="_new"> WWW.iPHILIP.ME/S/SKILLSUSA </a></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/skills1.png" alt="">
-                            <p>This site was created for the SkillsUSA club at Southwest CTA. This site was built to give basic information and have a area where members can input their information and it will be stored in a database. The SkillsUSA will be able to access the database to access their information. In previous years it was done all by hand one at a time. Now the SkillsUSA board members will have to do less work. </p>
-                            
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -385,16 +410,40 @@
         </div>
     </div>
 
-
-    
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Contact Section -->
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:white; font-size:350%; margin-bottom: 50px;">SEND ME A MESSAGE</h2>
-                    
+                    <h2 class="section-heading">SEND ME A MESSAGE</h2>
+                    <h3 class="section-subheading text-muted">I check my e-mail quite often, feel free to drop me a message.</h3>
                 </div>
             </div>
             <div class="row">
@@ -417,7 +466,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Type a long message about how amazing I am." id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -434,7 +483,7 @@
     </section>
 
     <!-- Contact Section -->
-    <footer> COPYRIGHT &copy; PHILIP TSE 2016</footer>
+    <footer> &copy; Philip Tse</footer>
 
 
 <!-- Bootstrap core JavaScript, plugin and custom scripts
@@ -444,13 +493,11 @@
 
 
 <script src="js/bootstrap.js"></script>
+
+
 <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
 <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
-<script type="text/javascript" src="js/scripts1.js"></script>
-
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
+<script type="text/javascript" src="js/scripts.js"></script>
 
 
 
@@ -470,8 +517,8 @@
 					// Components							
 					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 					slides 					:  	[			// Slideshow Images
-														{image : 'http://iphilip.me/background1.jpg'},
-														{image : 'http://iphilip.me/background2.jpg'}
+														{image : 'http://naiknikunj.me/naiknikunj/theme/3/images/07_timeLine-Background.jpg'},
+														{image : 'http://naiknikunj.me/naiknikunj/theme/3/images/34_parallax-image.jpg'}
 												]
 				});
 		    });

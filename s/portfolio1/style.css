@@ -1,0 +1,702 @@
+
+/*** uncss> filename: css/style.css ***/
+
+
+
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+h1 {
+  font-size: 2.888888888888889em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h2, h4, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #717171;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+.social img,.navbar .navbar-nav .active,.navbar .navbar-nav li a:hover,.timeline li:after,.ps-container .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x,#team h3,#services,#services .btn-outline-white:hover,#portfolio .cat-list .active,#portfolio .btn-outline-white:hover,.da-dots span.da-dots-current:after,#blogpost .btn-outline-white:hover,.item-title,.popup-nav-top,.portfolio-popup .btn-outline-white:hover,.btn-black:hover{
+background:#f6464a;
+}
+
+.btn {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.btn-outline-white {
+  border: 2px solid #fff;
+  background: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btn-outline-white:hover {
+  background-color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btnmore {
+  color: #fff;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  line-height: 24px !important;
+}
+
+.btn-small {
+  font-size: 0.875em;
+  text-transform: none;
+  font-weight: 600;
+  padding: 6px 20px;
+}
+
+/* ----- Pulsate effect -----*/
+
+.pulsate-opacity {
+  -webkit-animation: pulsate-op 2s infinite;
+  /* Safari 4+ */
+  -moz-animation: pulsate-op 2s infinite;
+  /* Fx 5+ */
+  -o-animation: pulsate-op 2s infinite;
+  /* Opera 12+ */
+  animation: pulsate-op 2s infinite;
+  /* IE 10+ */
+}
+
+@-webkit-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@-moz-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@-o-keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes pulsate-op {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* loading style */
+
+/*end loading style */
+
+/* ==========================================================================
+   Navigation Bar
+   ========================================================================== */
+
+.navbar {
+  height: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  padding: 15px 0;
+  top: -100px;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.navbar .navbar-nav {
+  float: none;
+  margin: 10px 0;
+}
+
+.navbar .navbar-nav li {
+  display: block;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  margin-left: 5px;
+}
+
+.navbar .navbar-nav li a {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin: 0;
+  padding: 12px 16px;
+  color: #fff;
+  outline: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.navbar .navbar-nav li a:hover {
+  background-color: #f6464a;
+  outline: none;
+  color: #fff;
+}
+
+.navbar .navbar-nav li a:focus {
+  background-color: transparent;
+  outline: none;
+}
+
+.navbar .navbar-nav li:hover {
+  background-color: #f6464a;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.navbar .navbar-nav .active {
+  background-color: #f6464a;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:hover {
+  color: #fff;
+}
+
+.navbar .navbar-brand {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+.navbar .navbar-toggle {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.navbar .navbar-toggle:hover {
+  background-color: #717171;
+  border: 1px solid #717171;
+}
+
+.navbar .navbar-toggle:hover .icon-bar {
+  background-color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: #8b8b8b;
+}
+
+.navbar .navbar-collapse {
+  background-color: rgba(0, 0, 0, 0.96);
+  text-align: center;
+  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+}
+
+.navbar-collapse {
+  max-height: 400px;
+}
+
+/* ==========================================================================
+   Banner Section
+   ========================================================================== */
+
+.banner {
+  background-image: url("../images/02_background-image.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1em;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner-pattern {
+  background: url("../images/03_overlay_pattern.png") repeat scroll left top rgba(0, 0, 0, 0);
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+}
+
+.banner-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.banner .container {
+  text-align: center;
+  display: table-cell;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 2.888888888888889em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  font-weight: 500;
+  opacity: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.banner h1:hover {
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+}
+.funny-text {
+  letter-spacing: 8px; 
+}
+h1.funny-text {
+  font-size: 80px !important;
+}
+
+#aboutme {
+  margin: 0;
+  padding: 0;
+}
+
+#aboutme li {
+  font-size: 1.333333333333333em;
+  line-height: 1.333333333333333em;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.banner #header-photo {
+  margin-top: 0px;
+}
+
+.social {
+  margin: 0 5px 40px;
+  display: block;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.social a {
+  opacity: .75;
+  margin-right: 15px;
+}
+
+.social-last {
+  margin-right: 0px !important;
+}
+
+.social a:hover,
+.social a:focus,
+.social a:active {
+  opacity: 1;
+}
+
+.sideline {
+  width: 6%;
+  min-width: 32px;
+  height: 1px;
+  margin: 0 1% 7px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.15);
+  display: inline-block;
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  -ms-animation-duration: 0.7s;
+  -o-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* ==========================================================================
+   Services Section
+   ========================================================================== */
+#services {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+#services h2 {
+  font-size: 50px;
+}
+.fa-stack {
+  margin-left: -115px;
+}
+/* ==========================================================================
+   Portfolio
+   ========================================================================== */
+
+#portfolio {
+  background-color: #F1F1F1;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+#portfolio h2 {
+  font-size: 50px;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+
+/* ==========================================================================
+   Contact Section
+   ========================================================================== */
+#contact {
+  background-color: #191919;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+#contact form :-moz-placeholder {
+  color: #FFF;
+}
+
+#contact form ::-moz-placeholder {
+  color: #FFF;
+}
+
+#contact form :-ms-input-placeholder {
+  color: #FFF;
+}
+
+#contact form input:-moz-placeholder,
+#contact form textarea:-moz-placeholder {
+  color: #FFF;
+}
+.pot {
+  visibility: hidden;
+  display: none;
+}
+/* ==========================================================================
+   Footer Section
+   ========================================================================== */
+footer {
+  background-color: white;
+}
+.icon-circle.large {
+  border: 2px solid #FFFFFF;
+  font-size: 1.3em;
+}
+
+.icon-circle {
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  color: #FFFFFF !important;
+  display: inline-block;
+  height: 2em;
+  line-height: 38px !important;
+  position: relative;
+  width: 2em;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    float: right;
+    margin: 2px 0 2px 0;
+  }
+
+  .navbar .navbar-nav li {
+    margin-left: 3px;
+  }
+
+  .navbar .navbar-nav li a {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #717171;
+  }
+
+  .navbar .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    margin-top: 0;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    float: right;
+    margin: 2px 0 2px 0;
+  }
+
+  .navbar .navbar-nav li {
+    margin-left: 5px;
+  }
+
+  .navbar .navbar-nav li a {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #717171;
+  }
+
+  .navbar .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .banner {
+    height: 100%;
+  }
+}
+
+/*==================================
+        THEE STYLE SWITHER
+==================================*/
+
+/* ==========================================================================
+   Animation classes and animations
+   ========================================================================== */
+
+/* Slide in from the right*/
+
+/* Slide in from the left*/
+
+/* Slide out to the right */
+
+/* Slide out to the left*/
+
+
+/*** uncss> filename: css/colors/color1.css ***/
+
+.navbar .navbar-nav .active,
+.navbar .navbar-nav li a:hover {
+  background: #f6464a;
+}
+
+*::-moz-selection {
+  background: #f6464a;
+  color: #fff;
+}
