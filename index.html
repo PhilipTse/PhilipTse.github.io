@@ -1,481 +1,217 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<html>
+
 <head>
-	<!-- Metas
-	================================================== -->
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, user-scalable=no, target-densitydpi=device-dpi"/>
-	<meta name="description" content="Philip Tse - Web Developer" />
-	<meta name="keywords" content="PhilipTse,html5,css3,jquery,portfolio,creative,design,personal" />
-	<meta name="author" content="" />
-	
-	<!-- Page Title 
-	================================================== -->
-	<title>Philip Tse :: Web Developer</title>
-	
-	<!-- Favicon 
-	================================================== -->
-	<link rel="shortcut icon" href="img/fav.png"/>
-	
-	<!-- Google fonts
-	================================================== -->
-	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css' /> 
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>   
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css' />
-	
-	<!-- bootstrap
-	================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	
-	<!--font-awesome
-	================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.css">
-	
-	<!-- CSS Custom
-	================================================== -->    
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title> Philip Tse | Web Developer </title>
 
-	<link rel="stylesheet" href="css/supersized.css" type="text/css"/>
-	
-
-	
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Philip Tse - Web Developer" />
+  <meta name="keywords" content="PhilipTse,html5,css3,jquery,portfolio,personal" />
+  <link rel="shortcut icon" href="img/fav.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
-<!-- contact -->
+  <div id="introduction">
+    <nav>
 
-
-<!-- Navigation Bar -->
-<div class="navbar navbar-fixed-top">
-	<div class="container">
-		<!-- mobile menu -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><img class="logo" src="images/04_small-logo-color1.png" alt=""></a>
-		</div>
-
-	</div>
-</div>
-<!-- End of Navigation Bar -->
-
-<!-- Banner section-->
-<section class="banner" id="header">
-	<div class="banner-pattern">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<!--logo-->
-					<div class="main-photo" id="header-photo">
-						
-					</div>
-					<!-- heading -->
-					<h1 style="opacity: 1; padding-top: 0px;" class="funny-text">PHILIP TSE</h1>
-					<!-- ticker -->
-					<ul id="aboutme">
-						<li>Responsive Web Design</li>
-						<li>UX/UI Design &amp; Development</li>
-						<li>Graphic Design</li>						
-					</ul>
-					<!--social icon -->
-					<div class="social">
-						<div class="sideline"></div>
-						<a title="Twitter" target="_blank" href="#"><span class="icon-circle large"><i class="fa fa-twitter"></i></span></a>
-						<a title="facebook" target="_blank" href="https://www.facebook.com/ImTehPhilip"><span class="icon-circle large"><i class="fa fa-facebook"></i></span></a>
-						<a title="skype" href="skype:philipiskewl?add"><span class="icon-circle large"><i class="fa fa-skype"></i></span></a>
-						
-						<div class="sideline"></div>
-					</div>
-					<!--Action button-->
-					<p>
-						<a href="#services" class="btn btn-outline-white btn-small btnmore">Learn More</a>
-					</p>
-				</div>
-			</div>
-		</div>	
-		<!-- SLIDER -->	
-		<!--Arrow Navigation-->
-		<a id="prevslide" class="load-item"></a>
-		<a id="nextslide" class="load-item"></a>
-	
-		<!--Time Bar-->
-		<div id="progress-back" class="load-item">
-			<div id="progress-bar"></div>
-		</div>
-		<!-- END SLIDER -->
-	</div>
-</section>
-<!-- End of Banner -->
-
-<!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">SERVICES</h2>
-                    <h3 class="section-subheading text-muted">My services include designing and developing responsive websites, graphic design and photo editing. </h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Graphic Design</h4>
-                    <p class="text-muted"></p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Coding</h4>
-                    <p class="text-muted"> </p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-scissors fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Photo Editing</h4>
-                    <p class="text-muted"> </p>
-                </div>
-            </div>
+      <ul>
+        <div id="logo">
+          Philip Tse
         </div>
-    </section>
-
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">MY PORTFOLIO</h2>
-                    <h3 class="section-subheading text-muted">Various work I have completed in previous years.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/intotech.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Into Tech</h4>
-                        <p class="text-muted">Web Design & Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/homeskape1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>HomeSkape</h4>
-                        <p class="text-muted">Web Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/hosa1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Nevada HOSA</h4>
-                        <p class="text-muted">Website Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/nvcee1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>NVCEE</h4>
-                        <p class="text-muted">Website Development</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/skills1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>SWCTA SkillsUSA</h4>
-                        <p class="text-muted">Web Design & Development</p>
-                    </div>
-                </div>
-                
-            </div>
+        <div id="navRight">
+          <li> <a href="#introduction"><i class="fas fa-home"></i>Home</a></li>
+          <li> <a href="#recentWork"><i class="fas fa-code"></i>Projects</a></li>
+          <li> <a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
         </div>
-    </section>
+      </ul>
+    </nav>
+    <div id="headerText">
+      <h1> Looking for a web developer? </h1>
+      <h2>My name is Philip and i'm a front-end web developer located in Las Vegas, NV.</h2>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-
-                            <h2>INTO TECH</h2>
-                            <p class="item-intro text-muted"><a href="http://philiptse.github.io/intotech" target="_new"> WWW.INTO-TECH.ORG </a></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/intotech.png" alt="">
-                            <p>Into Tech was a year long project that was aimed to teach fifth graders about fifth grade students with an entry-based look at the world of technology and engineering in the automotive, transportation, and aerospace industry.</p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="contactButton"> <a href="#contact">
+          Send me an email
+        </a>
+      </div>
     </div>
+  </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
-                        <div class="modal-body">
+  <div id="mySkills">
 
-                            <h2>HomeSkape</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/homeskape1.png" alt="">
-                            <p><a href="#">HomeSkape</a> was a client we recieved from my Studio C internship. We used Wordpress and Woocommerce to create a E-commerce website that sells a canvas printing service.</p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <h1 class="section-heading"> Skills </h1>
+    <h2>I have been learning web design and development since I was 14. Here is a few things I am good at.</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col goodBox">
+
+          <i class="fab fa-html5 fa-4x"></i><br>
+          <h3>HTML</h3>
         </div>
-    </div>
+        <div class="col goodBox">
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Nevada HOSA</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/hosa1.png" alt="">
-                            <p>One of our first clients for Studio C, we made this website with php to create a website that can take orders. We utilized google sheets to keep track of any clothing orders for this project.</p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <i class="fab fa-css3-alt fa-4x"></i><br>
+          <h3>CSS</h3>
         </div>
-    </div>
+        <div class="col goodBox">
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Nevada Council on Economic Education</h2>
-                            <p class="item-intro text-muted">WEBSITE COMING SOON</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/nvcee1.png" alt="">
-                            <p>This is our first client of Studio C that wanted wordpress with their site. NVCEE is a nonprofit organization that promotes economic education by developing and conducting teacher and community education programs in collaboration with existing organizations and networks.</p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <i class="fab fa-js-square fa-4x"></i><br>
+          <h3>JavaScript</h3>
         </div>
-    </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i class="fas fa-bold fa-4x"></i><br>
+          <h3>Bootstrap </h3>
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h5> Scroll Down </h5>
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Southwest CTA SkillsUSA</h2>
-                            <p class="item-intro text-muted"><a href="http://philiptse.github.io/skillsusa" target="_new">PHILIPTSE.GITHUB.IO/SKILLSUSA </a></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/skills1.png" alt="">
-                            <p>This site was created for the SkillsUSA club at Southwest CTA. This site was built to give basic information and have a area where members can input their information and it will be stored in a database. The SkillsUSA will be able to access the database to access their information. In previous years it was done all by hand one at a time. Now the SkillsUSA board members will have to do less work. </p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+        <div class="col">
+          <i class="fab fa-wordpress fa-4x"></i><br>
+          <h3> WordPress</h3>
+
+        </div>
+        <div class="col">
+          <i class="fab fa-adobe fa-4x"></i><br>
+          <h3> Adobe Creative Suite</h3>
+
+        </div>
+      </div>
+
+
     </div>
+  </div>
 
 
-    
-    <!-- Contact Section -->
 
-    <section id="contact">
-        <div class="container">
+  <div id="recentWork">
+    <h1 class="section-heading"> My Projects</h1>
+
+
+    <div class="container">
+      <div class="card-deck">
+
+        <div class="card mb-4">
+          <a href="http://philiptse.github.io/intotech/" target="_blank">
+            <img class="card-img-top img-fluid" src="img/intotech.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Into Tech</h4>
+
+              <p class="card-text text-muted">Into Tech was my senior capstone project that was aimed to teach fifth grade students
+                with an entry-based look at the world of technology and engineering.</p>
+            </div>
+          </a>
+        </div>
+        <div class="card mb-4">
+          <a href="http://philiptse.github.io/everywebsite/" target="_blank">
+            <img class="card-img-top img-fluid" src="img/everywebsite.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Every Website in 2019</h4>
+
+              <p class="card-text text-muted">This is a project that shows the characteristics of almost every single website in 2019.</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-100 d-none d-sm-block d-md-none">
+          <!-- wrap every 2 on sm-->
+        </div>
+        <div class="card mb-4">
+          <a href="https://incrediblemedical.000webhostapp.com/" target="_blank">
+            <img class="card-img-top img-fluid" src="img/incrediblemedical.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Incredible Medical</h4>
+
+              <p class="card-text text-muted">Incredible Medical is a wordpress site that developed from the HTML5 Blank theme.</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-100 d-none d-md-block">
+          <!-- wrap every 3 on md-->
+        </div>
+
+        <div class="card mb-4 invisible">
+
+        </div>
+        <div class="w-100 d-none d-sm-block d-md-none">
+          <!-- wrap every 2 on sm-->
+        </div>
+        <div class="card mb-4 invisible">
+
+        </div>
+
+        <div class="card mb-4 invisible">
+
+        </div>
+      </div>
+      <div class="w-100 d-none d-sm-block d-md-none">
+        <!-- wrap every 2 on sm-->
+      </div>
+      <div class="w-100 d-none d-md-block">
+        <!-- wrap every 3 on md-->
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">SEND ME A MESSAGE</h2>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form name="sentMessage" id="contactForm" novalidate>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:white; font-size:350%; margin-bottom: 50px;">SEND ME A MESSAGE</h2>
-                    
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
                 </div>
+                <div class="form-group">
+                  <input type="tel" class="form-control" placeholder="Your Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button type="submit" class="submitButton">Send Message</button>
+              </div>
             </div>
+          </form>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <footer> COPYRIGHT &copy; PHILIP TSE 2017</footer>
-
-
-<!-- Bootstrap core JavaScript, plugin and custom scripts
-================================================== -->
-
-<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
-
-
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
-<script type="text/javascript" src="js/scripts1.js"></script>
-
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
+      </div>
+    </div>
+  </div>
 
 
 
 
+  <footer>
+    COPYRIGHT © PHILIP TSE 2019
+  </footer>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact.js"></script>
+</body>
 
-
-
-
-
-
-<script type="text/javascript">
-			jQuery(function($){
-				$.supersized({
-					// Functionality
-					slide_interval          :   4000,		// Length between transitions
-					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-					transition_speed		:	1200,		// Speed of transition							   
-					// Components							
-					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-					slides 					:  	[			// Slideshow Images
-														{image : 'http://philiptse.github.io/img/background1.jpg'},
-														{image : 'http://philiptse.github.io/img/background2.jpg'}
-												]
-				});
-		    });
-		    
-		</script>
-
-</body></html>
+</html>

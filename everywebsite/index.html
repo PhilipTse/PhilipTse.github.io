@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Every Website in 2019 </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</head>
+
+<body>
+  <!--Enter Screen-->
+  <div id="welcomeScreen">
+    <h1 id="welcome"> Every Website in 2019 </h1>
+    <div id="enterButton">Enter</div>
+  </div>
+  <!-- Loading Icon -->
+  <div id="loadingIcon">
+    <i class="fas fa-spinner fa-pulse fa-4x"></i>
+  </div>
+  <!--Notification Popup -->
+  <div id="notification">
+    <div id=topBar>
+      <div id="bell">
+        <i class="fas fa-bell fa-4x"></i>
+      </div>
+      <div id="notificationText">
+        <h2 id="websiteWantsTo">This website wants to: </h2>
+        <h3 id="showNotificationsText">Show notifications</h3>
+      </div>
+    </div>
+    <div id="bottomBars">
+      <div id="allow">
+        Allow
+      </div>
+      <div id="block">
+        Block
+      </div>
+    </div>
+  </div>
+  <!--Location Popup -->
+  <div id="notificationLocation">
+    <div id=topBarLocation>
+      <div id="point">
+        <i class="fas fa-map-marker-alt fa-4x"></i>
+      </div>
+      <div id="notificationLocationText">
+        <h2 id="topText">This website wants to: </h2>
+        <h3 id="bottomText">Know your location</h3>
+      </div>
+    </div>
+    <div id="bottomBarsLocation">
+      <div id="allowLocation">
+        Allow
+      </div>
+      <div id="blockLocation">
+        Block
+      </div>
+    </div>
+  </div>
+
+  <div id="markZuck">
+    It's ok. I know you meant to hit yes. I went ahead and <br>sent this website your location for you. :) <br>- Mark Zuckerberg
+  </div>
+  <div id="sendNote">
+    Great! We will send you a notification every 15 minutes! <br>- Website Owner
+  </div>
+  <div id="niceHouse">
+    That is a nice house you got there. <br>- Tom
+  </div>
+  <!--Age Popup -->
+  <div id="ageCheck">
+    <div id="question">
+      <h1> Are you over the age of 13? </h1>
+      <h2>This site requires you to be 13 or older</h2>
+    </div>
+    <div id="answerWrapper">
+
+      <div class="answerButton">
+        YES
+      </div>
+      <div class="answerButton">
+        NO
+      </div>
+    </div>
+
+  </div>
+  <!--Newsletter Popup -->
+  <div id="newsletter">
+    <div id="xButton">
+      <i class="fas fa-times fa-4x"></i>
+    </div>
+    <div id="newsLetterIcon">
+      <i class="fas fa-envelope-open-text fa-10x"></i>
+    </div>
+
+
+    <div id="subscribeText">
+      <h1>Subscribe to our newsletter so you don't miss out on spam!</h1>
+    </div>
+    <div id="emailSubscribeContainer">
+      <input id="emailInput" placeholder="Your e-mail">
+      <div id="subscribeButton">
+        subscribe
+      </div>
+    </div>
+
+  </div>
+    <!--Privacy Popup -->
+  <div id="privacy">
+    <div id="privacyContainer">
+      <h1> We value your privacy </h1>
+      <div id="privacyText">
+        We just wanted to let you know that we value your privacy so much. We value your privacy at $232 VND.
+        By continuing to use this site, you agree to share your complete browser history (including history from incognito mode),
+        bookmarks, saved emails, saved passwords and live camera and mic access with any company or entity (including Facebook, NSA, Illuminati, Kim Jong-un, chinese triads, and the reptile people)
+        that has paid us $232 VND or more for your data. We will be selling your data to thousands of companies. You can opt yourself out of this by sending us
+        $3.04 KWD to our PayPal or via carrier eagle.
+      </div>
+
+      <div id="iAgree">
+        I AGREE
+      </div>
+    </div>
+  </div>
+    <!--Live Chat Popup -->
+  <div id="liveChat">
+
+    <div id="chatNow">
+      <h1> Want to chat? </h1>
+      <h2> We are here! </h2>
+      <div id="startChatButton">
+        START CHAT
+      </div>
+    </div>
+  </div>
+  <!--Adblock Popup -->
+  <div id="looksLike">
+    <div id="overlayWrapper">
+      <h1> It looks like you're using an adblocker </h1>
+      <h2>Its okay. It's understandable. But to just let you know... if I can't feed my kids, just know that it is because of you.</h2>
+      <div id="iUnderstand">
+        I understand
+      </div>
+    </div>
+  </div>
+
+
+  <!--Captcha Popup-->
+  <div id="robotCheck">
+
+    <div id="captchaBox">
+
+    </div>
+    <div id="captchaWrapper">
+      <h3> a</h3>
+    </div>
+
+    <div id="captchaText">
+      <h3>I'm not a robot</h3>
+
+    </div>
+
+    <div id="lock">
+      <i class="fas fa-lock fa-4x"></i>
+    </div>
+  </div>
+
+  <!--- Crash -->
+  <div id="crash">
+    <div id="crashWrapper">
+      <h1>Aw, Snap! </h1>
+      <h2> This browser ran out of memory trying to display this website. To continue, reload or go to another page. </h2>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
