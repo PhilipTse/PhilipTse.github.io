@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  display:none;
 }
 body {
   font-family: "Roboto", sans-serif;
